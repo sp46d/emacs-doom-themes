@@ -64,7 +64,7 @@ determine the exact padding."
    (highlight      blue)
    (vertical-bar   (doom-darken base2 0.1))
    (selection      dark-blue)
-   (builtin        blue)
+   (builtin        fg)
    (comments       (if doom-one-light-brighter-comments cyan base4))
    (doc-comments   (doom-darken comments 0.15))
    (constants      blue)
@@ -157,7 +157,7 @@ determine the exact padding."
    ;; org-mode
    ;; ((outline-1 &override) :foreground red)
    ;; ((outline-2 &override) :foreground orange)
-   ;; ((org-block &override) :background base1)
+   ((org-block &override) :forground fg :background "#fafafa")
    ;; ((org-block-begin-line &override) :foreground fg :slant 'italic)
    (org-ellipsis :underline nil :background bg     :foreground red)
    ((org-quote &override) :background base1)
