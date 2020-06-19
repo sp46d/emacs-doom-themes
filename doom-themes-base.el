@@ -66,7 +66,7 @@
      :foreground base5 :distant-foreground nil
      :weight 'normal :italic nil :underline nil :strike-through nil)
     (line-number-current-line
-     ;; :inherit '(hl-line default)
+     :inherit '(hl-line default)
      :foreground fg :distant-foreground nil
      :weight 'normal :italic nil :underline nil :strike-through nil)
 
@@ -1236,10 +1236,10 @@
 
     ;; org-mode
     (org-archived                 :foreground doc-comments)
-    ;; (org-block                    :background base3 :extend t)
+    (org-block                    :foreground fg :background bg-alt :extend t)
     ;; (org-block-background         :background base3 :extend t)
-    (org-block-begin-line         :foreground comments :underline t :extend t)
-    (org-block-end-line           :foreground comments :overline t :extend t)
+    (org-block-begin-line         :foreground comments :underline t :slant 'italic :extend t)
+    (org-block-end-line           :foreground comments :overline t :slant 'italic :extend t)
     (org-checkbox                 :inherit 'org-todo)
     (org-checkbox-statistics-done :inherit 'org-done)
     (org-checkbox-statistics-todo :inherit 'org-todo)
@@ -1247,7 +1247,7 @@
     (org-date                     :foreground yellow)
     (org-default                  :inherit 'variable-pitch)
     (org-document-info            :foreground builtin)
-    (org-document-title           :foreground builtin :weight 'bold)
+    (org-document-title           :foreground builtin :weight 'semi-bold :family "Lora" :height 1.6)
     (org-done                     :inherit 'org-headline-done :bold 'inherit)
     (org-ellipsis                 :underline nil :background nil :foreground grey)
     (org-footnote                 :foreground orange)
