@@ -9,7 +9,7 @@
     (doom-visual-bell :background error)
 
     ;; --- base faces -------------------------
-    (bold        :weight 'semibold :foreground (unless bold fg))
+    (bold        :weight 'bold :foreground (unless bold base8))
     (italic      :slant  'italic)
     (bold-italic :inherit '(bold italic))
 
@@ -27,7 +27,7 @@
     (trailing-whitespace  :background red)
     (nobreak-space        :inherit 'default :underline nil)
     (vertical-border      :background vertical-bar :foreground vertical-bar)
-    (link                 :foreground highlight :underline t :weight 'bold)
+    (link                 :foreground yellow :underline t :weight 'bold)
 
     (error   :foreground error)
     (warning :foreground warning)
@@ -66,7 +66,7 @@
      :foreground base5 :distant-foreground nil
      :weight 'normal :italic nil :underline nil :strike-through nil)
     (line-number-current-line
-     :inherit '(hl-line default)
+     ;; :inherit '(hl-line default)
      :foreground fg :distant-foreground nil
      :weight 'normal :italic nil :underline nil :strike-through nil)
 
@@ -449,7 +449,7 @@
     (diredfl-date-time              :foreground cyan :weight 'light)
     (diredfl-deletion               :foreground red :background (doom-blend red bg 0.2) :weight 'bold)
     (diredfl-deletion-file-name     :foreground red :background (doom-blend red bg 0.2))
-    (diredfl-dir-heading            :foreground blue :weight 'bold)
+    (diredfl-dir-heading            :foreground blue :weight semibold)
     (diredfl-dir-name               :foreground blue)
     (diredfl-dir-priv               :foreground blue)
     (diredfl-exec-priv              :foreground green)
@@ -709,7 +709,7 @@
     ((indent-guide-face &inherit highlight-indentation-face))
 
     ;; ivy
-    (ivy-current-match :background region :distant-foreground nil :extend t)
+    (ivy-current-match :background nil :distant-foreground nil :extend t)
     (ivy-minibuffer-match-face-1
      :background nil
      :foreground (doom-lighten grey 0.14)
@@ -1225,21 +1225,21 @@
     (notmuch-wash-toggle-button :foreground fg)
 
     ;; outline
-    (outline-1 :foreground blue                        :weight 'bold :extend t)
-    (outline-2 :foreground magenta                     :weight 'bold :extend t)
-    (outline-3 :foreground violet                      :weight 'bold :extend t)
-    (outline-4 :foreground (doom-lighten blue 0.25)    :weight 'bold :extend t)
-    (outline-5 :foreground (doom-lighten magenta 0.25) :weight 'bold :extend t)
-    (outline-6 :foreground (doom-lighten blue 0.5)     :weight 'bold :extend t)
-    (outline-7 :foreground (doom-lighten magenta 0.5)  :weight 'bold :extend t)
-    (outline-8 :foreground (doom-lighten blue 0.8)     :weight 'bold :extend t)
+    (outline-1 :foreground blue                        :weight semibold :extend t)
+    (outline-2 :foreground magenta                     :weight semibold :extend t)
+    (outline-3 :foreground violet                      :weight semibold :extend t)
+    (outline-4 :foreground (doom-lighten blue 0.25)    :weight semibold :extend t)
+    (outline-5 :foreground (doom-lighten magenta 0.25) :weight semibold :extend t)
+    (outline-6 :foreground (doom-lighten blue 0.5)     :weight semibold :extend t)
+    (outline-7 :foreground (doom-lighten magenta 0.5)  :weight semibold :extend t)
+    (outline-8 :foreground (doom-lighten blue 0.8)     :weight semibold :extend t)
 
     ;; org-mode
     (org-archived                 :foreground doc-comments)
-    (org-block                    :background base3 :extend t)
-    (org-block-background         :background base3 :extend t)
-    (org-block-begin-line         :foreground comments :background base3 :extend t)
-    (org-block-end-line           :inherit 'org-block-begin-line)
+    ;; (org-block                    :background base3 :extend t)
+    ;; (org-block-background         :background base3 :extend t)
+    (org-block-begin-line         :foreground comments :underline t :extend t)
+    (org-block-end-line           :foreground comments :overline t :extend t)
     (org-checkbox                 :inherit 'org-todo)
     (org-checkbox-statistics-done :inherit 'org-done)
     (org-checkbox-statistics-todo :inherit 'org-todo)
@@ -1255,15 +1255,15 @@
     (org-headline-done            :foreground base5)
     (org-hide                     :foreground bg)
 
-    ;; extends from outline-N
-    ;; (org-level-1)
-    ;; (org-level-2)
-    ;; (org-level-3)
-    ;; (org-level-4)
-    ;; (org-level-5)
-    ;; (org-level-6)
-    ;; (org-level-7)
-    ;; (org-level-8)
+    ;; Solarized theme
+    (org-level-1 :foreground orange :weight semibold)
+    (org-level-2 :foreground green  :weight semibold)
+    (org-level-3 :foreground blue   :weight semibold)
+    (org-level-4 :foreground yellow :weight semibold)
+    (org-level-5 :foreground cyan   :weight semibold)
+    (org-level-6 :foreground green  :weight semibold)
+    (org-level-7 :foreground red    :weight semibold)
+    (org-level-8 :foreground blue   :weight semibold)
 
     (org-list-dt         :foreground highlight)
     (org-meta-line       :foreground doc-comments)
