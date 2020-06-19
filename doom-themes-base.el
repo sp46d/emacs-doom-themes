@@ -33,7 +33,7 @@
     (warning :foreground warning)
     (success :foreground success)
 
-    (font-lock-builtin-face              :foreground builtin)
+    (font-lock-builtin-face              :foreground builtin :weight 'bold)
     (font-lock-comment-face              :foreground comments)
     (font-lock-comment-delimiter-face    :inherit 'font-lock-comment-face)
     (font-lock-doc-face                  :inherit 'font-lock-comment-face :foreground doc-comments)
@@ -716,7 +716,7 @@
      :weight 'light)
     (ivy-minibuffer-match-face-2
      :inherit 'ivy-minibuffer-match-face-1
-     :foreground magenta :background nil :weight 'semi-bold)
+     :foreground magenta :background base1 :weight 'semi-bold)
     (ivy-minibuffer-match-face-3
      :inherit 'ivy-minibuffer-match-face-2
      :foreground green :weight 'semi-bold)
