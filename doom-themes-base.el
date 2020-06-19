@@ -1236,8 +1236,8 @@
 
     ;; org-mode
     (org-archived                 :foreground doc-comments)
-    (org-block                    :foreground base8 :background bg-alt :extend t)
-    (org-block-background         :background bg-alt :extend t)
+    (org-block                    :foreground fg :background bg :extend t)
+    (org-block-background         :background bg :extend t)
     (org-block-begin-line         :foreground comments :underline t :slant 'italic :extend t)
     (org-block-end-line           :foreground comments :overline t :slant 'italic :extend t)
     (org-checkbox                 :inherit 'org-todo)
@@ -1323,6 +1323,9 @@
     ;; org-roam
     (org-roam-link :foreground blue)
     (org-roam-link-current :foreground blue :weight 'bold :underline t)
+
+    ;; Deft
+    (deft-title-face :foreground blue :weight 'semi-bold)
 
     ;; pkgbuild-mode
     (pkgbuild-error-face :underline `(:style wave :color ,red))
