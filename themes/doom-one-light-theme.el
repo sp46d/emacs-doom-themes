@@ -64,7 +64,7 @@ determine the exact padding."
    (highlight      blue)
    (vertical-bar   (doom-darken base2 0.1))
    (selection      dark-blue)
-   (builtin        fg)
+   (builtin        blue)
    (comments       (if doom-one-light-brighter-comments cyan base4))
    (doc-comments   (doom-darken comments 0.15))
    (constants      blue)

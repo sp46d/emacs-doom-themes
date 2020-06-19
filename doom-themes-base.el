@@ -1236,7 +1236,7 @@
 
     ;; org-mode
     (org-archived                 :foreground doc-comments)
-    (org-block                    :foreground fg :background bg-alt :extend t)
+    (org-block                    :foreground fg :background base1 :extend t)
     ;; (org-block-background         :background base3 :extend t)
     (org-block-begin-line         :foreground comments :underline t :slant 'italic :extend t)
     (org-block-end-line           :foreground comments :overline t :slant 'italic :extend t)
@@ -1319,6 +1319,10 @@
     (org-ref-glossary-face   :foreground magenta)
     (org-ref-label-face      :foreground blue)
     (org-ref-ref-face        :inherit 'link :foreground red)
+
+    ;; org-roam
+    (org-roam-link :foreground blue)
+    (org-roam-link-current :foreground blue :weight 'bold :underline t)
 
     ;; pkgbuild-mode
     (pkgbuild-error-face :underline `(:style wave :color ,red))
