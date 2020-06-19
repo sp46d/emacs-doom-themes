@@ -68,7 +68,7 @@ determine the exact padding."
    (comments       (if doom-one-light-brighter-comments cyan base4))
    (doc-comments   (doom-darken comments 0.15))
    (constants      violet)
-   (functions      magenta)
+   (functions      blue)
    (keywords       red)
    (methods        cyan)
    (operators      blue)
@@ -155,10 +155,10 @@ determine the exact padding."
    (mmm-default-submode-face :background base1)
 
    ;; org-mode
-   ((outline-1 &override) :foreground red)
-   ((outline-2 &override) :foreground orange)
-   ((org-block &override) :background base1)
-   ((org-block-begin-line &override) :foreground fg :slant 'italic)
+   ;; ((outline-1 &override) :foreground red)
+   ;; ((outline-2 &override) :foreground orange)
+   ;; ((org-block &override) :background base1)
+   ;; ((org-block-begin-line &override) :foreground fg :slant 'italic)
    (org-ellipsis :underline nil :background bg     :foreground red)
    ((org-quote &override) :background base1)
 

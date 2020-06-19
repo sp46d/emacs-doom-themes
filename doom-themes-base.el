@@ -129,7 +129,7 @@
     (dired-directory  :foreground builtin)
     (dired-ignored    :foreground comments)
     (dired-flagged    :foreground red)
-    (dired-header     :foreground blue :weight 'bold)
+    (dired-header     :foreground blue :weight 'semi-bold)
     (dired-mark       :foreground orange :weight 'bold)
     (dired-marked     :foreground magenta :weight 'bold :inverse-video t)
     (dired-perm-write :foreground fg :underline t)
@@ -709,14 +709,14 @@
     ((indent-guide-face &inherit highlight-indentation-face))
 
     ;; ivy
-    (ivy-current-match :background nil :distant-foreground nil :extend t)
+    (ivy-current-match :background region :distant-foreground nil :extend t)
     (ivy-minibuffer-match-face-1
      :background nil
      :foreground (doom-lighten grey 0.14)
      :weight 'light)
     (ivy-minibuffer-match-face-2
      :inherit 'ivy-minibuffer-match-face-1
-     :foreground magenta :background base1 :weight 'semi-bold)
+     :foreground magenta :background nil :weight 'semi-bold)
     (ivy-minibuffer-match-face-3
      :inherit 'ivy-minibuffer-match-face-2
      :foreground green :weight 'semi-bold)
@@ -1256,14 +1256,14 @@
     (org-hide                     :foreground bg)
 
     ;; Solarized theme
-    (org-level-1 :foreground orange)
-    (org-level-2 :foreground green )
-    (org-level-3 :foreground blue  )
-    (org-level-4 :foreground yellow)
-    (org-level-5 :foreground cyan  )
-    (org-level-6 :foreground green )
-    (org-level-7 :foreground red   )
-    (org-level-8 :foreground blue  )
+    (org-level-1 :foreground orange :weight 'semi-bold)
+    (org-level-2 :foreground green  :weight 'semi-bold)
+    (org-level-3 :foreground blue   :weight 'semi-bold)
+    (org-level-4 :foreground yellow :weight 'semi-bold)
+    (org-level-5 :foreground cyan   :weight 'semi-bold)
+    (org-level-6 :foreground green  :weight 'semi-bold)
+    (org-level-7 :foreground red    :weight 'semi-bold)
+    (org-level-8 :foreground blue   :weight 'semi-bold)
 
     (org-list-dt         :foreground highlight)
     (org-meta-line       :foreground doc-comments)
