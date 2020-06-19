@@ -9,7 +9,7 @@
     (doom-visual-bell :background error)
 
     ;; --- base faces -------------------------
-    (bold        :weight 'bold :foreground (unless bold base8))
+    (bold        :weight 'semibold :foreground (unless bold fg))
     (italic      :slant  'italic)
     (bold-italic :inherit '(bold italic))
 
