@@ -1236,7 +1236,7 @@
 
     ;; org-mode
     (org-archived                 :foreground doc-comments)
-    ;; (org-block                    :foreground fg :background bg)
+    (org-block                    :foreground fg)
     ;; (org-block-background         :background bg :extend t)
     (org-block-begin-line         :foreground comments :underline t :slant 'italic)
     (org-block-end-line           :foreground comments :overline t :slant 'italic)
