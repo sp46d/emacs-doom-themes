@@ -157,10 +157,10 @@ determine the exact padding."
    ;; org-mode
    ;; ((outline-1 &override) :foreground red)
    ;; ((outline-2 &override) :foreground orange)
-   ((org-block &override) :forground fg :background "#fafafa")
+   ;; ((org-block &override) :background "#f1f3f4")
    ;; ((org-block-begin-line &override) :foreground fg :slant 'italic)
    (org-ellipsis :underline nil :background bg     :foreground red)
-   ((org-quote &override) :background base1)
+   ;; ((org-quote &override) :background base1)
 
    ;; helm
    (helm-candidate-number :background blue :foreground bg)
