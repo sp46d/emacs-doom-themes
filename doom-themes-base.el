@@ -37,7 +37,7 @@
     (font-lock-comment-face              :foreground comments)
     (font-lock-comment-delimiter-face    :inherit 'font-lock-comment-face)
     (font-lock-doc-face                  :inherit 'font-lock-comment-face :foreground doc-comments)
-    (font-lock-constant-face             :foreground constants :weight 'bold)
+    (font-lock-constant-face             :foreground constants)
     (font-lock-function-name-face        :foreground functions)
     (font-lock-keyword-face              :foreground keywords :weight 'bold)
     (font-lock-string-face               :foreground strings)
@@ -1253,7 +1253,7 @@
     (org-ellipsis                 :underline nil :background nil :foreground grey)
     (org-footnote                 :foreground orange)
     (org-formula                  :foreground cyan)
-    (org-headline-done            :foreground base5)
+    (org-headline-done            :foreground green)
     (org-hide                     :foreground bg)
 
     ;; Solarized theme

@@ -67,7 +67,7 @@ determine the exact padding."
    (builtin        fg)
    (comments       (if doom-one-light-brighter-comments cyan base4))
    (doc-comments   (doom-darken comments 0.15))
-   (constants      blue)
+   (constants      violet)
    (functions      blue)
    (keywords       green)
    (methods        green)
