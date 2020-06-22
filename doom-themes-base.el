@@ -728,6 +728,7 @@
     (ivy-confirm-face :foreground success)
     (ivy-match-required-face :foreground error)
     (ivy-virtual :inherit 'italic :foreground doc-comments)
+    (ivy-subdir :foreground blue)
     (ivy-modified-buffer :inherit 'bold :foreground vc-modified)
 
     ;; ivy-posframe
