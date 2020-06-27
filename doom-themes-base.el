@@ -366,11 +366,11 @@
     (cfw:face-select             :background region)
 
     ;; company
-    (company-tooltip            :foreground fg :background (doom-blend blue bg 0.2))
-    (company-tooltip-common     :foreground fg :distant-foreground base0 :weight 'bold)
+    (company-tooltip            :foreground fg :background (doom-blend blue bg 0.05))
+    (company-tooltip-common     :foreground magenta :distant-foreground base0 :weight 'bold)
     (company-tooltip-search     :background magenta :foreground bg :distant-foreground fg :weight 'bold)
     (company-tooltip-search-selection :foreground magenta :weight 'bold)
-    (company-tooltip-selection  :foreground orange :weight 'bold)
+    (company-tooltip-selection  :background (doom-blend blue bg 0.2))
     (company-tooltip-mouse      :background magenta   :foreground bg :distant-foreground fg)
     (company-tooltip-annotation :foreground cyan :distant-foreground bg)
     (company-scrollbar-bg       :inherit 'tooltip)
@@ -379,7 +379,7 @@
     (company-preview-common     :background base3 :foreground highlight)
     (company-preview-search     :inherit 'company-tooltip-search)
     (company-template-field     :inherit 'match)
-
+com
     ;; company-box
     (company-box-candidate :foreground fg)
 
