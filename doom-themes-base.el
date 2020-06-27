@@ -366,7 +366,7 @@
     (cfw:face-select             :background region)
 
     ;; company
-    (company-tooltip            :foreground fg :background (doom-blend blue bg 0.8))
+    (company-tooltip            :foreground fg :background (doom-blend blue bg 0.2))
     (company-tooltip-common     :foreground fg :distant-foreground base0 :weight 'bold)
     (company-tooltip-search     :background magenta :foreground bg :distant-foreground fg :weight 'bold)
     (company-tooltip-search-selection :foreground magenta :weight 'bold)
@@ -1287,8 +1287,8 @@
     (org-agenda-date          :foreground comments :background bg)
     (org-agenda-date-today    :inherit 'org-agenda-date :inverse-video t
                               :weight 'bold :foreground blue :background bg)
-    (org-agenda-date-weekend  :inherit 'org-agenda-date :foreground base5 :underline t)
-    (org-agenda-structure     :foreground fg-alt :background bg-alt :inverse-video nil
+    (org-agenda-date-weekend  :inherit 'org-agenda-date :underline t :slant 'italic)
+    (org-agenda-structure     :foreground violet :background bg-alt :inverse-video nil
                               :weight 'bold)
     (org-agenda-clocking      :background (doom-blend blue bg 0.2))
     (org-upcoming-deadline         :foreground (doom-blend fg bg 0.8))
