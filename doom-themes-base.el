@@ -366,7 +366,7 @@
     (cfw:face-select             :background region)
 
     ;; company
-    (company-tooltip            :foreground fg :background (doom-blend blue bg 0.05))
+    (company-tooltip            :foreground fg :background (doom-blend blue bg 0.1))
     (company-tooltip-common     :foreground magenta :distant-foreground base0 :weight 'bold)
     (company-tooltip-search     :background magenta :foreground bg :distant-foreground fg :weight 'bold)
     (company-tooltip-search-selection :foreground magenta :weight 'bold)
