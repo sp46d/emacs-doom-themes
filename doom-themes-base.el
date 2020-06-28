@@ -1276,7 +1276,7 @@
     (org-special-keyword          :foreground doc-comments)
     (org-table                    :foreground violet)
     (org-tag                      :foreground doc-comments :weight 'normal)
-    (org-latex-and-related        :foreground base8 :weight 'bold)
+    (org-latex-and-related        :foreground violet)
     (org-todo                     :foreground green :bold 'inherit)
     (org-verbatim                 :foreground green)
     (org-warning                  :foreground warning)
