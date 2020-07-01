@@ -202,7 +202,7 @@
     (ido-virtual     :foreground comments)
 
     ;; isearch
-    (isearch :inherit 'lazy-highlight :weight 'bold)
+    (isearch :foreground bg :background magenta)
     (isearch-fail :background error :foreground base0 :weight 'bold)
 
     ;; linum
