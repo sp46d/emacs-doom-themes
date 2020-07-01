@@ -22,7 +22,7 @@
     (minibuffer-prompt    :foreground highlight)
     (tooltip              :background base3 :foreground fg)
     (secondary-selection  :background grey :extend t)
-    (lazy-highlight       :background dark-blue  :foreground base8 :distant-foreground base0 :weight 'bold)
+    (lazy-highlight       :background magenta  :foreground bg :weight 'normal)
     (match                :foreground green      :background base0 :weight 'bold)
     (trailing-whitespace  :background red)
     (nobreak-space        :inherit 'default :underline nil)
@@ -202,7 +202,7 @@
     (ido-virtual     :foreground comments)
 
     ;; isearch
-    (isearch :foreground bg :background magenta)
+    (isearch :foreground bg :background magenta :weight 'normal)
     (isearch-fail :background error :foreground base0 :weight 'bold)
 
     ;; linum
