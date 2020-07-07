@@ -21,7 +21,7 @@
     (shadow               :foreground base5)
     (minibuffer-prompt    :foreground highlight)
     (tooltip              :background base3 :foreground fg)
-    (secondary-selection  :background grey :extend t)
+    (secondary-selection  :background region :foreground nil   :distant-foreground (doom-darken fg 0.2) :extend t)
     (lazy-highlight       :background magenta  :foreground bg :weight 'normal)
     (match                :foreground green      :background base0 :weight 'bold)
     (trailing-whitespace  :background red)
@@ -1253,7 +1253,7 @@
     (org-ellipsis                 :underline nil :background nil :foreground grey)
     (org-footnote                 :foreground orange)
     (org-formula                  :foreground cyan)
-    (org-headline-done            :foreground green)
+    (org-headline-done            :foreground comments)
     (org-hide                     :foreground bg)
 
     ;; Solarized theme
@@ -1272,7 +1272,7 @@
     (org-priority                 :foreground cyan)
     (org-property-value           :foreground doc-comments)
     (org-drawer                   :foreground cyan)
-    (org-quote                    :background base3 :slant 'italic :extend t)
+    (org-quote                    :slant 'italic :extend t)
     (org-special-keyword          :foreground doc-comments)
     (org-table                    :foreground violet)
     (org-tag                      :foreground doc-comments :weight 'normal)
@@ -1311,8 +1311,8 @@
 
     ;; org-journal
     (org-journal-highlight :foreground highlight)
-    (org-journal-calendar-entry-face :foreground magenta :slant 'italic)
-    (org-journal-calendar-scheduled-face :foreground red :slant 'italic)
+    (org-journal-calendar-entry-face :foreground yellow :weight 'bold)
+    (org-journal-calendar-scheduled-face :foreground orange :underline t :weight 'bold)
 
     ;; org-pomodoro
     (org-pomodoro-mode-line :foreground red)
@@ -1328,6 +1328,7 @@
     ;; org-roam
     (org-roam-link :foreground blue)
     (org-roam-link-current :foreground blue :weight 'bold :underline t)
+    (org-roam-link-invalid :background error :foreground bg :weight 'bold)
 
     ;; Deft
     (deft-title-face :foreground blue :weight 'semi-bold)
