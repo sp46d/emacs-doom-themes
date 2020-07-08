@@ -1289,7 +1289,7 @@
                               :weight 'bold :foreground blue :background bg)
     (org-agenda-date-weekend  :inherit 'org-agenda-date :underline t :slant 'italic)
     (org-agenda-structure     :foreground violet :background bg-alt :inverse-video nil
-                              :weight 'bold)
+                              :weight 'semi-bold :family "Lora" :height 1.4)
     (org-agenda-clocking      :background (doom-blend blue bg 0.2))
     (org-upcoming-deadline         :foreground (doom-blend fg bg 0.8))
     (org-upcoming-distant-deadline :foreground (doom-blend fg bg 0.5))
@@ -1331,7 +1331,7 @@
     (org-roam-link-invalid :background error :foreground bg :weight 'bold)
 
     ;; Deft
-    (deft-title-face :foreground blue :weight 'semi-bold)
+    ;; (deft-title-face :foreground blue :weight 'semi-bold)
 
     ;; pkgbuild-mode
     (pkgbuild-error-face :underline `(:style wave :color ,red))
