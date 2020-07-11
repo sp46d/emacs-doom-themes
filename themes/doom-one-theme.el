@@ -163,8 +163,8 @@ determine the exact padding."
    ((markdown-code-face &override) :background (doom-lighten base3 0.05))
 
    ;; org-mode
-   ;; (org-hide :foreground hidden)
-   ;; (solaire-org-hide-face :foreground hidden))
+   (org-hide :foreground hidden)
+   (solaire-org-hide-face :foreground hidden))
 
 
   ;; --- extra variables ---------------------
