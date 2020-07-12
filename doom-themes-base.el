@@ -710,19 +710,10 @@
 
     ;; ivy
     (ivy-current-match :background region :distant-foreground nil :extend t)
-    (ivy-minibuffer-match-face-1
-     :background nil
-     :foreground (doom-lighten grey 0.14)
-     :weight 'light)
-    (ivy-minibuffer-match-face-2
-     :inherit 'ivy-minibuffer-match-face-1
-     :foreground magenta :background base1 :weight 'semi-bold)
-    (ivy-minibuffer-match-face-3
-     :inherit 'ivy-minibuffer-match-face-2
-     :foreground green :weight 'semi-bold)
-    (ivy-minibuffer-match-face-4
-     :inherit 'ivy-minibuffer-match-face-2
-     :foreground yellow :weight 'semi-bold)
+    (ivy-minibuffer-match-face-1 :foreground base7)
+    (ivy-minibuffer-match-face-2 :foreground yellow)
+    (ivy-minibuffer-match-face-3 :foreground yellow)
+    (ivy-minibuffer-match-face-4 :foreground yellow)
     (ivy-minibuffer-match-highlight :foreground violet)
     (ivy-highlight-face :foreground violet)
     (ivy-confirm-face :foreground success)
@@ -730,6 +721,28 @@
     (ivy-virtual :inherit 'italic :foreground doc-comments)
     (ivy-subdir :foreground blue)
     (ivy-modified-buffer :inherit 'bold :foreground vc-modified)
+    
+    ;; (ivy-current-match :background region :distant-foreground nil :extend t)
+    ;; (ivy-minibuffer-match-face-1
+    ;;  :background nil
+    ;;  :foreground (doom-lighten grey 0.14)
+    ;;  :weight 'light)
+    ;; (ivy-minibuffer-match-face-2
+    ;;  :inherit 'ivy-minibuffer-match-face-1
+    ;;  :foreground magenta :background base1 :weight 'semi-bold)
+    ;; (ivy-minibuffer-match-face-3
+    ;;  :inherit 'ivy-minibuffer-match-face-2
+    ;;  :foreground green :weight 'semi-bold)
+    ;; (ivy-minibuffer-match-face-4
+    ;;  :inherit 'ivy-minibuffer-match-face-2
+    ;;  :foreground yellow :weight 'semi-bold)
+    ;; (ivy-minibuffer-match-highlight :foreground violet)
+    ;; (ivy-highlight-face :foreground violet)
+    ;; (ivy-confirm-face :foreground success)
+    ;; (ivy-match-required-face :foreground error)
+    ;; (ivy-virtual :inherit 'italic :foreground doc-comments)
+    ;; (ivy-subdir :foreground blue)
+    ;; (ivy-modified-buffer :inherit 'bold :foreground vc-modified)
 
     ;; ivy-posframe
     (ivy-posframe :background (doom-darken bg-alt 0.2))
@@ -981,11 +994,11 @@
      (&dark  :background base3))
 
     ;; swiper
-    (swiper-line-face    :background blue    :foreground base0)
-    (swiper-match-face-1 :inherit 'unspecified :background base0   :foreground base5)
-    (swiper-match-face-2 :inherit 'unspecified :background orange  :foreground base0 :weight 'bold)
-    (swiper-match-face-3 :inherit 'unspecified :background magenta :foreground base0 :weight 'bold)
-    (swiper-match-face-4 :inherit 'unspecified :background green   :foreground base0 :weight 'bold)
+    (swiper-line-face    :background region)
+    (swiper-match-face-1 :foreground base7 :weight 'bold)
+    (swiper-match-face-2 :foreground yellow :weight 'bold)
+    (swiper-match-face-3 :foreground yellow :weight 'bold)
+    (swiper-match-face-4 :foreground yellow :weight 'bold)
 
     ;; tabbar
     (tabbar-default             :foreground bg :background bg :height 1.0)
