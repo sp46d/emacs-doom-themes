@@ -711,9 +711,9 @@
     ;; ivy
     (ivy-current-match :background region :distant-foreground nil :extend t)
     (ivy-minibuffer-match-face-1 :foreground base7)
-    (ivy-minibuffer-match-face-2 :foreground yellow)
-    (ivy-minibuffer-match-face-3 :foreground yellow)
-    (ivy-minibuffer-match-face-4 :foreground yellow)
+    (ivy-minibuffer-match-face-2 :foreground yellow :weight 'bold :underline t)
+    (ivy-minibuffer-match-face-3 :foreground yellow :weight 'bold :underline t)
+    (ivy-minibuffer-match-face-4 :foreground yellow :weight 'bold :underline t)
     (ivy-minibuffer-match-highlight :foreground violet)
     (ivy-highlight-face :foreground violet)
     (ivy-confirm-face :foreground success)
