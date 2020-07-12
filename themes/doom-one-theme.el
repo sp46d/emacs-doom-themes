@@ -39,11 +39,11 @@ determine the exact padding."
    (base1      '("#1c1f24" "#1e1e1e" "brightblack"  ))
    (base2      '("#202328" "#2e2e2e" "brightblack"  ))
    (base3      '("#23272e" "#262626" "brightblack"  ))
-   (base4      '("#3f444a" "#3f3f3f" "brightblack"  ))
+   (base4      '("#586e75" "#3f3f3f" "brightblack"  ))
    (base5      '("#586e75" "#525252" "brightblack"  ))
    (base6      '("#73797e" "#6b6b6b" "brightblack"  ))
-   (base7      '("#9ca0a4" "#979797" "brightblack"  ))
-   (base8      '("#DFDFDF" "#dfdfdf" "white"        ))
+   (base7      '("#93a1a1" "#979797" "brightblack"  ))
+   (base8      '("#eee8d5" "#dfdfdf" "white"        ))
    (fg         '("#839496" "#839496" "brightwhite"  ))
    (fg-alt     '("#5B6268" "#2d2d2d" "white"        ))
 
@@ -76,7 +76,7 @@ determine the exact padding."
    (strings        cyan)
    (variables      blue)
    (numbers        orange)
-   (region         `(,(doom-lighten (car bg-alt) 0.1) ,@(doom-lighten (cdr base0) 0.3)))
+   (region         `(,(doom-lighten (car blue) 0.1) ,@(doom-lighten (cdr base0) 0.3)))
    (error          red)
    (warning        yellow)
    (success        green)
@@ -111,7 +111,7 @@ determine the exact padding."
 
    (evil-goggles-default-face :inherit 'region :background (doom-blend region bg 0.5))
 
-   ((line-number &override) :foreground base4)
+   ((line-number &override) :foreground base5)
    ((line-number-current-line &override) :foreground fg)
 
    (font-lock-comment-face
