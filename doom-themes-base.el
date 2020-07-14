@@ -711,7 +711,7 @@
 
     ;; ivy
     (ivy-current-match :background region :distant-foreground nil :extend t)
-    ;; (ivy-minibuffer-match-face-1 :foreground comments)
+    (ivy-minibuffer-match-face-1 :foreground nil)
     (ivy-minibuffer-match-face-2 :foreground yellow :weight 'bold :underline t)
     (ivy-minibuffer-match-face-3 :foreground yellow :weight 'bold :underline t)
     (ivy-minibuffer-match-face-4 :foreground yellow :weight 'bold :underline t)
@@ -996,7 +996,7 @@
 
     ;; swiper
     (swiper-line-face    :background region :distant-foreground nil)
-    (swiper-match-face-1 :weight 'bold)
+    (swiper-match-face-1 :foreground nil)
     (swiper-match-face-2 :foreground yellow :underline t :weight 'bold)
     (swiper-match-face-3 :foreground yellow :underline t :weight 'bold)
     (swiper-match-face-4 :foreground yellow :underline t :weight 'bold)
