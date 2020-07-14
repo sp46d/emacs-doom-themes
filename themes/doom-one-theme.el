@@ -114,7 +114,7 @@ determine the exact padding."
    ((line-number &override) :foreground base5)
    ((line-number-current-line &override) :foreground fg)
 
-   ((region &override) :background fg :background bg :extend t)
+   ((region &override) :background fg :foreground bg :extend t)
 
    (font-lock-comment-face
     :foreground comments
