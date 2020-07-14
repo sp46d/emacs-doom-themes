@@ -712,9 +712,9 @@
     ;; ivy
     (ivy-current-match :background region :distant-foreground nil :extend t)
     (ivy-minibuffer-match-face-1 :foreground nil)
-    (ivy-minibuffer-match-face-2 :foreground yellow :weight 'bold :underline t)
-    (ivy-minibuffer-match-face-3 :foreground yellow :weight 'bold :underline t)
-    (ivy-minibuffer-match-face-4 :foreground yellow :weight 'bold :underline t)
+    (ivy-minibuffer-match-face-2 :foreground magenta :weight 'bold :underline t)
+    (ivy-minibuffer-match-face-3 :foreground magenta :weight 'bold :underline t)
+    (ivy-minibuffer-match-face-4 :foreground magenta :weight 'bold :underline t)
     (ivy-minibuffer-match-highlight :foreground violet)
     (ivy-highlight-face :foreground violet)
     (ivy-confirm-face :foreground success)
@@ -997,9 +997,9 @@
     ;; swiper
     (swiper-line-face    :background region :distant-foreground nil)
     (swiper-match-face-1 :foreground nil)
-    (swiper-match-face-2 :foreground yellow :underline t :weight 'bold)
-    (swiper-match-face-3 :foreground yellow :underline t :weight 'bold)
-    (swiper-match-face-4 :foreground yellow :underline t :weight 'bold)
+    (swiper-match-face-2 :foreground magenta :underline t :weight 'bold)
+    (swiper-match-face-3 :foreground magenta :underline t :weight 'bold)
+    (swiper-match-face-4 :foreground magenta :underline t :weight 'bold)
 
     ;; tabbar
     (tabbar-default             :foreground bg :background bg :height 1.0)
