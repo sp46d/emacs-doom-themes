@@ -995,10 +995,10 @@
 
     ;; swiper
     (swiper-line-face    :background region)
-    (swiper-match-face-1 :foreground base7 :weight 'bold)
-    (swiper-match-face-2 :foreground yellow :weight 'bold)
-    (swiper-match-face-3 :foreground yellow :weight 'bold)
-    (swiper-match-face-4 :foreground yellow :weight 'bold)
+    (swiper-match-face-1 :foreground fg :weight 'bold)
+    (swiper-match-face-2 :foreground magenta :weight 'bold)
+    (swiper-match-face-3 :foreground magenta :weight 'bold)
+    (swiper-match-face-4 :foreground magenta :weight 'bold)
 
     ;; tabbar
     (tabbar-default             :foreground bg :background bg :height 1.0)
