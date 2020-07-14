@@ -16,7 +16,7 @@
     (default :background bg :foreground fg)
     (fringe :inherit 'default :foreground base4)
     ;; (region               :background region     :foreground nil   :distant-foreground (doom-darken fg 0.2) :extend t)
-    (region               :background region     :distant-foreground nil   :extend t)
+    (region               :background region     :foreground (doom-darken fg 0.2)   :extend t)
     (highlight            :background highlight  :foreground base0 :distant-foreground base8)
     (cursor               :background highlight)
     (shadow               :foreground base5)
