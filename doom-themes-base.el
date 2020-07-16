@@ -809,9 +809,9 @@
 
     ;; lsp
     ;; TODO Add light versions
-    (lsp-face-highlight-textual :background dark-blue :foreground base8 :distant-foreground base0 :weight 'bold)
-    (lsp-face-highlight-read    :background dark-blue :foreground base8 :distant-foreground base0 :weight 'bold)
-    (lsp-face-highlight-write   :background dark-blue :foreground base8 :distant-foreground base0 :weight 'bold)
+    (lsp-face-highlight-textual :background region :foreground nil)
+    (lsp-face-highlight-read    :background region :foreground nil)
+    (lsp-face-highlight-write   :background region :foreground nil)
     (lsp-ui-doc-background :inherit 'tooltip)
     (lsp-ui-peek-filename :inherit 'mode-line-buffer-id)
     (lsp-ui-peek-header :foreground fg :background (doom-lighten bg 0.1) :bold bold)
