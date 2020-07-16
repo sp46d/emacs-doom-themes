@@ -892,7 +892,7 @@
     (minimap-active-region-background :background vertical-bar)
     
     ;; mic-paren
-    (paren-face-match    :foreground magenta   :background bg :weight 'ultra-bold)
+    (paren-face-match    :foreground magenta   :background nil :weight 'ultra-bold)
     (paren-face-mismatch :foreground base0 :background red   :weight 'bold)
     (paren-face-no-match :inherit 'paren-face-mismatch :weight 'bold)
 
