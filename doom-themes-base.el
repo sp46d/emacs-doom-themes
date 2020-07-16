@@ -936,7 +936,7 @@
     (rainbow-delimiters-depth-5-face :foreground green)
     (rainbow-delimiters-depth-6-face :foreground yellow)
     (rainbow-delimiters-depth-7-face :foreground blue)
-    (rainbow-delimiters-depth-8-face :foreground violt)
+    (rainbow-delimiters-depth-8-face :foreground violet)
     (rainbow-delimiters-depth-9-face :foreground green)
     (rainbow-delimiters-depth-10-face :foreground yellow)
     (rainbow-delimiters-depth-11-face :foreground blue)
