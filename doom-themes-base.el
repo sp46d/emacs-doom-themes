@@ -892,9 +892,9 @@
     (minimap-active-region-background :background vertical-bar)
     
     ;; mic-paren
-    (paren-face-match    :foreground red   :background base0 :weight 'ultra-bold)
-    (paren-face-mismatch :foreground base0 :background red   :weight 'ultra-bold)
-    (paren-face-no-match :inherit 'paren-face-mismatch :weight 'ultra-bold)
+    (paren-face-match    :foreground magenta   :background bg :weight 'ultra-bold)
+    (paren-face-mismatch :foreground base0 :background red   :weight 'bold)
+    (paren-face-no-match :inherit 'paren-face-mismatch :weight 'bold)
 
     ;; objed
     (objed-mode-line :inherit 'warning :weight 'bold)
@@ -929,14 +929,19 @@
     (powerline-inactive2 :inherit 'mode-line-inactive :background (doom-lighten 'base2 0.04))
 
     ;; rainbow-delimiters
-    (rainbow-delimiters-depth-1-face :foreground blue)
-    (rainbow-delimiters-depth-2-face :foreground magenta)
-    (rainbow-delimiters-depth-3-face :foreground green)
-    (rainbow-delimiters-depth-4-face :foreground orange)
-    (rainbow-delimiters-depth-5-face :foreground violet)
+    (rainbow-delimiters-depth-1-face :foreground cyan)
+    (rainbow-delimiters-depth-2-face :foreground yellow)
+    (rainbow-delimiters-depth-3-face :foreground blue)
+    (rainbow-delimiters-depth-4-face :foreground violet)
+    (rainbow-delimiters-depth-5-face :foreground green)
     (rainbow-delimiters-depth-6-face :foreground yellow)
-    (rainbow-delimiters-depth-7-face :foreground teal)
-    (rainbow-delimiters-unmatched-face  :foreground red :weight 'bold :inverse-video t)
+    (rainbow-delimiters-depth-7-face :foreground blue)
+    (rainbow-delimiters-depth-8-face :foreground violt)
+    (rainbow-delimiters-depth-9-face :foreground green)
+    (rainbow-delimiters-depth-10-face :foreground yellow)
+    (rainbow-delimiters-depth-11-face :foreground blue)
+    (rainbow-delimiters-depth-12-face :foreground violet)
+    (rainbow-delimiters-unmatched-face  :foreground red :inverse-video t)
     (rainbow-delimiters-mismatched-face :inherit 'rainbow-delimiters-unmatched-face)
 
     ;; re-builder
