@@ -1291,7 +1291,7 @@
     (org-priority                 :foreground cyan)
     (org-property-value           :foreground doc-comments)
     (org-drawer                   :foreground cyan)
-    (org-quote                    :family "Source Sans Pro" :height 1.3 :extend t)
+    ;; (org-quote                    :family "Source Sans Pro" :height 1.3 :extend t)
     (org-special-keyword          :foreground doc-comments)
     (org-table                    :foreground violet)
     (org-tag                      :weight 'bold)
