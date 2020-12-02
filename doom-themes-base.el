@@ -1348,6 +1348,7 @@
     (org-roam-link :foreground blue)
     (org-roam-link-current :foreground blue :weight 'bold :underline t)
     (org-roam-link-invalid :background error :foreground bg :weight 'bold)
+    (org-roam-dailies-calendar-note :foreground yellow :weight 'bold)
 
     ;; Deft
     ;; (deft-title-face :foreground blue :weight 'semi-bold)
