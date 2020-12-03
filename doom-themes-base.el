@@ -1285,7 +1285,7 @@
     (org-level-7 :foreground red    :weight 'semi-bold)
     (org-level-8 :foreground blue   :weight 'semi-bold)
 
-    (org-list-dt                  :weight 'normal)
+    (org-list-dt                  :weight 'semi-bold)
     (org-document-info-keyword    :foreground doc-comments)
     (org-meta-line                :foreground doc-comments :slant 'italic)
     (org-priority                 :foreground cyan)
