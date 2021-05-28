@@ -1278,12 +1278,12 @@
     ;; Solarized theme
     (org-level-1 :foreground orange :family "Lora" :height 1.4 :weight 'semi-bold)
     (org-level-2 :foreground fg     :family "Lora" :height 1.2 :weight 'semi-bold)
-    (org-level-3 :foreground fg     :family "Lora" :height 1.2 :weight 'semi-bold)
-    (org-level-4 :foreground fg     :family "Lora" :height 1.2 :weight 'semi-bold)
-    (org-level-5 :foreground fg     :family "Lora" :height 1.2 :weight 'semi-bold)
-    (org-level-6 :foreground fg     :family "Lora" :height 1.2 :weight 'semi-bold)
-    (org-level-7 :foreground fg     :family "Lora" :height 1.2 :weight 'semi-bold)
-    (org-level-8 :foreground fg     :family "Lora" :height 1.2 :weight 'semi-bold)
+    (org-level-3 :foreground fg     :family "Lora" :height 1.2)
+    (org-level-4 :foreground fg     :family "Lora" :height 1.2)
+    (org-level-5 :foreground fg     :family "Lora" :height 1.2)
+    (org-level-6 :foreground fg     :family "Lora" :height 1.2)
+    (org-level-7 :foreground fg     :family "Lora" :height 1.2)
+    (org-level-8 :foreground fg     :family "Lora" :height 1.2)
 
     ;; (org-level-1 :foreground orange :weight 'semi-bold)
     ;; (org-level-2 :foreground green  :weight 'semi-bold)
