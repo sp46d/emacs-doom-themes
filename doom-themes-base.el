@@ -1276,7 +1276,7 @@
     (org-hide                     :foreground bg)
 
     ;; Solarized theme
-    (org-level-1 :foreground orange :family "Lora" :height 1.4 :weight 'semi-bold)
+    (org-level-1 :foreground orange :family "Lora" :height 1.2 :weight 'semi-bold)
     (org-level-2 :foreground fg     :family "Lora" :height 1.2 :weight 'semi-bold)
     (org-level-3 :foreground fg     :family "Lora" :height 1.2)
     (org-level-4 :foreground fg     :family "Lora" :height 1.2)
